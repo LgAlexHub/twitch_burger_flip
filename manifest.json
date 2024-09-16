@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Twitch Burger Flip",
-    "description": "Inverse twitch video",
-    "version": "1.0",
+    "description": "Enhance your Twitch experience by flipping video streams horizontally with a single click.",
+    "version": "1.1",
     "action": {
         "default_icon": "default_icon_off.png"
     },
@@ -13,5 +13,12 @@
         "activeTab",
         "scripting"
     ],
-    "host_permissions": ["*://*.twitch.tv/*"]
+    "icons": {
+        "128": "icons/icon_default_128.png",
+        "48": "icons/icon_default_48.png",
+        "16": "icons/icon_default_16.png"
+    },
+    "host_permissions": [
+        "*://*.twitch.tv/*"
+    ]
 }
